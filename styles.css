@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;   
 }
 
@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     padding-top: 12px;
     margin-bottom: 60px;
+    
 }
  
 .resize {
@@ -28,9 +29,10 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 32px;
     margin-right: 300px;
-    flex:1 ;
+    flex:1 1 1;
     align-items: center;
 }
 
@@ -77,6 +79,7 @@ a {
     top: 7rem;
 }
 
+
 .btn {
     background-color: #3882f6;
     border: 1px solid royalblue;
@@ -97,7 +100,8 @@ a {
     background-color: #f9faf8;
     margin-left: -130px;
     margin-right: -130px;
-    margin-bottom: -100px;
+    margin-bottom: -30px;
+    padding-bottom: 200px;
    
 }
 
@@ -115,6 +119,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .graphics-card,
@@ -166,7 +171,7 @@ ul {
 .VIR {
     font-size: 22px;
     position: relative;
-    left: 160px;
+    left: 150px;
     bottom: 10px;
     
 }
@@ -187,4 +192,38 @@ ul {
     position: relative;
     bottom: 28px;
     left: 2px;
+}
+
+.part3 {
+    background-color: #e5e7eb;
+    margin-left: -130px;
+    margin-right: -130px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 1400px;
+    
+
+
+}
+
+.emp {
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 500;
+    padding-left: 65rem;
+    
+}
+
+.pc-quote {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
