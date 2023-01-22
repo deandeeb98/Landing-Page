@@ -227,3 +227,39 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.part4 {
+    background-color:#3882f6;
+    padding: 60px;
+    margin: 120px 350px 10px 350px;
+    border-radius: 1rem;
+   
+}
+
+
+.call {
+    display: flex;
+    position: relative;
+    right: -150px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#f9faf8
+}
+
+.sign {
+    color: rgb(222, 222, 222);
+    position: relative;
+    right: -150px;
+    top: 5px;
+    width: 700px;
+}
+
+.signup {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+    position: relative;
+    left: 70rem;
+    bottom: 20px;
+}
